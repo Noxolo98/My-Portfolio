@@ -1,5 +1,5 @@
 Noxolo Luswazi - Portfolio
-Welcome to my portfolio repository! 🚀
+Welcome to my portfolio repository
 Here, you'll find a collection of my work showcasing my skills as an ICT Business Analyst and Software Developer. This repository includes projects, documentation, and code that reflect my expertise in system development, software testing, data analysis, and full-stack development
 
 
@@ -50,7 +50,7 @@ Repository: Python Project
 5. Simple Rest API
    Type: Back end development project
    Description:An API provides basic CRUD (Create, Read, Update, Delete) operations for managing subjects.
-   Repository:
+   Repository:Api
    
 
 
