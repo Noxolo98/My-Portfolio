@@ -1,26 +1,25 @@
 Noxolo Luswazi - Portfolio.
+
 Welcome to my portfolio repository
 Here, you'll find a collection of my work showcasing my skills as an ICT Business Analyst and Software Developer. This repository includes projects, documentation, and code that reflect my expertise in system development, software testing, data analysis, and full-stack development
 
 
 About Me.
+
 Hi, I'm Noxolo Luswazi! I'm passionate about creating efficient software solutions and analyzing data to drive informed decisions. My work spans web development, application design, and business analysis to bridge the gap between technical solutions and organizational needs.
 
 
 
 My areas of expertise:
-System Development
 
-From conceptualization to deployment, I design systems tailored to user needs.
-Data Analysis
 
-Transforming raw data into actionable insights using advanced tools and techniques.
-Full-Stack Development
+1. System Development:From conceptualization to deployment, I design systems tailored to user needs.
+   
+2. Data Analysis:Transforming raw data into actionable insights using advanced tools and techniques.
+   
+3. Full-Stack Development:Proficient in building end-to-end applications with seamless user experiences.
 
-Proficient in building end-to-end applications with seamless user experiences.
-Software Testing
-
-Ensuring quality through meticulous testing and debugging.
+4. Software Testing:Ensuring quality through meticulous testing and debugging.
 
 Projects
 
@@ -56,8 +55,10 @@ Repository: Python Project
 
  Technologies & Tools
  
-Languages: Java, JavaScript, HTML, CSS, SQL
-Frameworks: React, Node.js
-Tools: Git, GitHub, Postman, VS Code, IntelliJ IDEA
+1.Languages: Java, JavaScript, HTML, CSS, SQL
+
+2. Frameworks: React, Node.js
+   
+3. Tools: Git, GitHub, Postman, VS Code, IntelliJ IDEA
 
 
