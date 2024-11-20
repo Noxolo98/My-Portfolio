@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/d127b4141c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div id="header">
+    <div class="container">
+      <nav>
+        <img src="images/logo.png" class="logo">
+        <ul id="sidemenu">
+            <li><a href="#header">Home</a>
+            <li><a href="#about">About</a>
+            <li><a href="#services">Services</a>
+            <li><a href="#portfolio">Portfolio</a>
+            <li><a href="#contact">Contact</a>
+              <i class="fa-solid fa-square-xmark" onclick="closemenu()"></i>
+          </li>
+        </ul>
+        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+      </nav>
+      <div class="header-text">
+        <h1>Hi, I'm <span>Noxolo</span><br> Luswazi. I am a Business Analyst and Software Developer</h1>
+      </div>
+
+    </div>
+<!----------------about------------------------------>
+  </div>
+  <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-col-1">
+          <img src="images/Image.JPG">
+        </div>
+        <div class="about-col-2">
+          <h1 class="sub-title">About Me</h1>
+          <p>I am a recent graduate in Business Analysis with a passion for leveraging data-driven insights to drive strategic decision-making and operational efficiency. My academic background and hands-on project experience have equipped me with a strong foundation in analyzing business processes, identifying opportunities for improvement, and implementing effective solutions. I am eager to apply my skills in a dynamic environment where I can contribute to business success and continue to grow professionally.</p>
+
+          <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+            <p class="tab-links" onclick="opentab('education')">Education</p>
+          </div>
+          <div class="tab-contents active-tab" id="skills">
+            <ul>
+              <li><span>Business Analysis</span><br>Process mapping, requirement gathering, stakeholder management</li>
+              <li><span>Data Analysis</span><br> Proficiency in Excel, SQL, and data visualization tools (e.g., Tableau, Power BI)</li>
+              <li><span>Project Management</span><br> Familiarity with Agile and Waterfall methodologies</li>
+              <li><span>Technical Skills</span><br>Software Development</li>
+            </ul>
+
+          </div>
+          <div class="tab-contents" id="experience">
+            <ul>
+              <li><span>Currenty</span><br>Full-stack System Development Candidate at Capaciti</li>
+              <li><span>Feb 2023-Dec 2023</span><br>Educator Assistant at ECDOE</li>
+              <li><span>Sep 2020-Mar 2021</span><br>Customer Service Assistant at KFC</li>
+            
+            </ul>
+
+          </div>
+          <div class="tab-contents" id="education">
+            <ul>
+              <li><span>2018-2023</span><br>Walter Sisulu University</li>
+              <li><span>2014-2016</span><br>Lindelani Senior Secondary School</li>
+            </ul>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <!------------------------------ares od expertise------------------------------------>
+  <div id="services">
+    <div class="container">
+      <h1 class="sub-title">My Areas of Expertise</h1>
+      <div class="services-list">
+        <div>
+          <i class="fa-solid fa-database"></i>
+          <h2>Data Analysis</h2>
+          <p>Transforming raw data into actionable insights to drive informed decisions. I offer data cleaning, visualization, and statistical analysis, tailored to help clients understand trends and make impactful choices.</p>
+          <a href="#">Learn more</a>
+        </div>
+        <div>
+          <i class="fa-solid fa-code"></i>
+          <h2>Software Development</h2>
+          <p>Building custom software solutions to bring your ideas to life. From concept to deployment, I develop applications that are robust, scalable, and tailored to meet unique business needs.</p>
+          <a href="#">Learn more</a>
+        </div>
+        <div>
+          <i class="fa-brands fa-uncharted"></i>
+          <h2>Software Testing</h2>
+          <p>Ensuring software quality through thorough testing. I offer manual and automated testing to detect bugs, improve performance, and enhance user experience, helping clients deliver reliable, high-quality products.</p>
+          <a href="#">Learn more</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-----------------------porfolio---------------------------------->
+ <div id="portfolio">
+  <div class="container">
+    <h1 class="sub-title">My work</h1>
+    <div class="work-list">
+      <div class="work">
+        <img src="images/work-1.jpg">
+        <div class="layer">
+          <h3>Data Analysis</h3>
+          <p> Analysis of housing prices based on a dataset that contains information about properties, including the number of bedrooms, price, and area.</p>
+               <a href="https://github.com/Noxolo98/dataAnalyst"><i class="fa-solid fa-up-right-from-square"></i></a>  
+          </div>
+      </div>
+
+      <div class="work">
+        <img src="images/work-2.JPG">
+        <div class="layer">
+          <h3>Simple Rest APi</h3>
+          <p>An API provides basic CRUD (Create, Read, Update, Delete) operations for managing subjects.</p>
+          <a href="https://github.com/Noxolo98/Api"><i class="fa-solid fa-up-right-from-square"></i></a> 
+        </div>
+      </div>
+
+      <div class="work">
+        <img src="images/work-3.JPG">
+        <div class="layer">
+          <h3>Single Page Application</h3>
+          <p>A react Single Page application for a nail bar.</p>
+          <a href="https://github.com/Noxolo98/SPA-PROJECT"><i class="fa-solid fa-up-right-from-square"></i></a> 
+        </div>
+      </div>
+    </div>
+     <a href="a" class="btn">See more</a>
+  </div>
+ </div>
+<!-------------contact----------------------------------------------->
+<div id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="contact-left">
+        <h1 class="sub-title">Contact Me</h1>
+        <p><i class="fa-solid fa-paper-plane"></i>noxolozimbini98@gmail.com</p>
+        <p><i class="fa-solid fa-phone-volume"></i>0718037837</p>
+        <div class="social-icons">
+          <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+          <a href="https://instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://x.com/"><i class="fa-brands fa-x-twitter"></i></a>
+          <a href="https://linkedin.com/"><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+         <a href="images/My CV PDF.pdf"Download class="btn btn2">Download CV</a>
+      </div>
+      <div class="contact-right">
+        <form name="submit-to-google-sheet">
+          <input type="text" name="Name" placeholder="Your Name" required>
+          <input type="email" name="Email" placeholder="Your Email" required>
+          <textarea name="Message" rows="6" placeholder="Your Message"></textarea> 
+          <button type="submit" class="btn btn2">Submit</button>
+        </form>
+        <span id="msg"></span>
+      </div>
+    </div>
+  </div>
+  <div class="copyright">
+    <p>Copyright <i class="fa-regular fa-copyright"></i>made with <i class="fa-solid fa-heart"></i> by Noxolo.</p>
+  </div>
+</div>
+
+
+
+
+
+  <script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+      for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+      }
+      for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+      }
+      event.currentTarget.classList.add("tab-links");
+      document.getElementById(tabname).classList.add("active-tab")
+
+
+    }
+
+  </script>
+  <script>
+
+    var sidemenu =document.getElementById("sidemenu");
+
+    function openmenu(){
+      sidemenu.style.right = "0";
+
+    }
+
+    function closemenu(){
+      sidemenu.style.right = "-200px";
+      
+    }
+
+  </script>
+
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbyRdPbF12wpDDZL4Y3YsYCrz9fuuNx-JqOmbGNWy-U629FPHCi1ecZnGBDMRIZYQ5jz/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML = "Message sent successfully"
+        setTimeout(function(){
+          msg.innerHTML = ""
+        },5000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+</body>
+</html>
