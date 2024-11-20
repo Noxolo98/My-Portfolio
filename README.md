@@ -24,7 +24,7 @@ Ensuring quality through meticulous testing and debugging.
 
 Projects
 
-1.Single page application
+1. Single page application
 Type: REACT project
 description: A single page application for a nail bar
 Repositoty name: SPA project
@@ -41,7 +41,7 @@ Type: Personal Website
 Description: A showcase of my skills, services, and projects. Built with HTML, CSS, and JavaScript, now featuring improved functionalities.
    
 
-4.Data Analysis
+4. Data Analysis
 Type: a Python project
 description: Analysis of housing prices based on a dataset that contains information about properties, including the number of bedrooms, price, and area.
 Repository: Python Project
