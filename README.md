@@ -1,9 +1,9 @@
-Noxolo Luswazi - Portfolio
+Noxolo Luswazi - Portfolio.
 Welcome to my portfolio repository
 Here, you'll find a collection of my work showcasing my skills as an ICT Business Analyst and Software Developer. This repository includes projects, documentation, and code that reflect my expertise in system development, software testing, data analysis, and full-stack development
 
 
-About Me
+About Me.
 Hi, I'm Noxolo Luswazi! I'm passionate about creating efficient software solutions and analyzing data to drive informed decisions. My work spans web development, application design, and business analysis to bridge the gap between technical solutions and organizational needs.
 
 
