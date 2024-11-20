@@ -55,7 +55,7 @@ Repository: Python Project
 
  Technologies & Tools
  
-1.Languages: Java, JavaScript, HTML, CSS, SQL
+1. Languages: Java, JavaScript, HTML, CSS, SQL
 
 2. Frameworks: React, Node.js
    
