@@ -10,12 +10,16 @@ Hi, I'm Noxolo Luswazi! I'm passionate about creating efficient software solutio
 
 My areas of expertise:
 System Development
+
 From conceptualization to deployment, I design systems tailored to user needs.
 Data Analysis
+
 Transforming raw data into actionable insights using advanced tools and techniques.
 Full-Stack Development
+
 Proficient in building end-to-end applications with seamless user experiences.
 Software Testing
+
 Ensuring quality through meticulous testing and debugging.
 
 Projects
@@ -30,24 +34,24 @@ Link :
 Type: Java Console Application
 Description: A basic system to manage student records and grading.
 Repository: School Management System
-Link: 
+ 
 
 4. Portfolio Website
 Type: Personal Website
 Description: A showcase of my skills, services, and projects. Built with HTML, CSS, and JavaScript, now featuring improved functionalities.
-Link: My Portfolio Website
+   
 
 4.Data Analysis
 Type: a Python project
 description: Analysis of housing prices based on a dataset that contains information about properties, including the number of bedrooms, price, and area.
 Repository: Python Project
-Link:
+
 
 5. Simple Rest API
    Type: Back end development project
    Description:An API provides basic CRUD (Create, Read, Update, Delete) operations for managing subjects.
    Repository:
-   Link:
+   
 
 
  Technologies & Tools
